@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/index.css';
-import HomePage from "./Components/Pages/HomePage/HomePage";
+import App from "@/App";
+import '@/common/styles/base.css'
+
+
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
 root.render(
-    <HomePage/>
+    <App/>
 );
-
